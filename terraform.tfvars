@@ -1,0 +1,11 @@
+# admin account
+admin_account_id = ""
+admin_access_key = ""
+admin_secret_key = ""
+bucket_name = "tf-all-in-one-test-bucket2"
+region = "ap-northeast-1"
+new_policy = "tf-all-in-one-test-policy2"
+new_policy_desc = "tf-all-in-one-test-policy description"
+effects = "Allow"
+s3user = "tf-all-in-one-test-user2"
+s3_bucket_resource = "arn:aws:s3:::${bucket_name}/*"
